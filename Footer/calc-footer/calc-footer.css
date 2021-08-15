@@ -1,0 +1,29 @@
+/*  FOOTER STYLES  */
+
+.content {
+  min-height: calc(100vh - 50px);
+}
+
+.footer {
+  height: 50px;
+}
+
+/*  HELPER STYLES*/
+
+* {
+  box-sizing: border-box;
+}
+
+.content, .footer {
+  font-family: 'Space Mono';
+  font-size: 1.125rem;
+  padding: .5rem;
+}
+
+.content {
+  background-color: aqua;
+}
+
+.footer {
+  background-color: green;
+}

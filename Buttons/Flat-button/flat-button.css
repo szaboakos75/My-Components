@@ -1,0 +1,42 @@
+/* ==== GENERAL STYLES ==== */
+
+body {
+  background-color: #eee;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  max-width: 470px;
+  padding: 10px;
+  margin: 20px auto;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+/* The base of every button */
+.button {
+  display: inline-block;
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  color: black;
+  padding: .8rem 1rem;
+  border: 1px solid black;
+}
+
+.button:hover {
+  color: white;
+  background-color: black;
+  transition: background-color 0.10s ease-in-out;
+}

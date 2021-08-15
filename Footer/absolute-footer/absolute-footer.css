@@ -1,0 +1,34 @@
+/* FOOTER STYLE */
+.wrapper {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 50px; /* Equals height of the footer and pushes away the content in the case they would touch. */
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+}
+
+/*  HELPING STYLE  */
+* {
+  box-sizing: border-box;
+}
+
+.footer, .content {
+  font-family: 'Space Mono';
+  font-size: 1.125rem;
+  padding: .5rem
+}
+
+.footer {
+  background-color: green;
+}
+
+.content {
+  background-color: aqua;
+  height: 210px
+}
